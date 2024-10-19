@@ -21,3 +21,13 @@ lcd_set_cursor(0,0);
 		count += 1;
 		itoa(count, buffer, 10);
 		lcd_print(buffer);
+
+  
+ pin connections:-
+
+ Register Select (RS) pin on PA2
+ Enable (E) pin on PA3
+ Data pin D4 on PA4
+ Data pin D5 on PA5
+ Data pin D6 on PA6
+ Data pin D7 on PA7
