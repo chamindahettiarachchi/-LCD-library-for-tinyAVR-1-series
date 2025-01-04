@@ -2,7 +2,6 @@
 #include <avr/io.h>
 #include <stdlib.h>
 #include "attinyLCDlib/lcd.h"
-#include "attinyLCDlib/lcd.c"
 int count =0;
 char buffer[10];
 int main(void) {
